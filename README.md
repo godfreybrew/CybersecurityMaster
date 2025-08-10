@@ -5,9 +5,9 @@ ___
 
 # Table of content
 
-1. [Risk Generalities](https://github.com/AsterYujano/Cybersecurity#risk-generalities)
-	* [DICP](https://github.com/AsterYujano/Cybersecurity#dicp)
-	* [Risk Concept](https://github.com/AsterYujano/Cybersecurity#risk-concepts)
+1. [Risk Generalities](https://github.com/godfreybrew/CybersecurityMaster#risk-generalities)
+	* [DICP](https://github.com/godfreybrew/CybersecurityMaster#dicp)
+	* [Risk Concept](https://github.com/godfreybrew/CybersecurityMaster#risk-concepts)
 	* [Sniffing](https://github.com/AsterYujano/Cybersecurity#sniffing)
 	* [TCP spoofing](https://github.com/AsterYujano/Cybersecurity#tcp-spoofing)
 	* [SYN flooding Attack](https://github.com/AsterYujano/Cybersecurity#syn-flooding-attack)
