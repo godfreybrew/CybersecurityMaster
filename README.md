@@ -28,14 +28,14 @@ ___
 	* [Firewall & Router](https://github.com/godfreybrew/CybersecurityMaster#firewall--router)
 	* [Intrusion Detection Systems](https://github.com/godfreybrew/CybersecurityMaster#intrusion-detection-systems)
 	* [Internet Access point](https://github.com/godfreybrew/CybersecurityMaster#internet-access-point)
-5. [How to etablish trust ?](https://github.com/AsterYujano/Cybersecurity#how-to-etablish-trust-)
-	* [Logs & Security Qualification](https://github.com/AsterYujano/Cybersecurity#logs--security-qualification)
-	* [Remote accesses](https://github.com/AsterYujano/Cybersecurity#remote-accesses)
-	* [VPN](https://github.com/AsterYujano/Cybersecurity#vpn)
-	* [Cryptography](https://github.com/AsterYujano/Cybersecurity#cryptography)
-	* [PKI](https://github.com/AsterYujano/Cybersecurity#pki)
-	* [SSL / TLS](https://github.com/AsterYujano/Cybersecurity#{todo})
-6. [Sources](https://github.com/AsterYujano/Cybersecurity#sources)
+5. [How to etablish trust ?](https://github.com/godfreybrew/CybersecurityMaster#how-to-etablish-trust-)
+	* [Logs & Security Qualification](https://github.com/godfreybrew/CybersecurityMaster#logs--security-qualification)
+	* [Remote accesses](https://github.com/godfreybrew/CybersecurityMaster#remote-accesses)
+	* [VPN](https://github.com/godfreybrew/CybersecurityMaster#vpn)
+	* [Cryptography](https://github.com/godfreybrewww/CybersecurityMaster#cryptography)
+	* [PKI](https://github.com/godfreybrewww/CybersecurityMaster#pki)
+	* [SSL / TLS](https://github.com/godfreybrewwww/CybersecurityMaster#{todo})
+6. [Sources](https://github.com/godfreybrewww/CybersecurityMaster#sources)
 
 	
 	
