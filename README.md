@@ -32,10 +32,10 @@ ___
 	* [Logs & Security Qualification](https://github.com/godfreybrew/CybersecurityMaster#logs--security-qualification)
 	* [Remote accesses](https://github.com/godfreybrew/CybersecurityMaster#remote-accesses)
 	* [VPN](https://github.com/godfreybrew/CybersecurityMaster#vpn)
-	* [Cryptography](https://github.com/godfreybrewww/CybersecurityMaster#cryptography)
-	* [PKI](https://github.com/godfreybrewww/CybersecurityMaster#pki)
-	* [SSL / TLS](https://github.com/godfreybrewwww/CybersecurityMaster#{todo})
-6. [Sources](https://github.com/godfreybrewww/CybersecurityMaster#sources)
+	* [Cryptography](https://github.com/godfreybrew/CybersecurityMaster#cryptography)
+	* [PKI](https://github.com/godfreybrew/CybersecurityMaster#pki)
+	* [SSL / TLS](https://github.com/godfreybrew/CybersecurityMaster#{todo})
+6. [Sources](https://github.com/godfreybrew/CybersecurityMaster#sources)
 
 	
 	
