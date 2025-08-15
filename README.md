@@ -232,7 +232,7 @@ An attacker executes un solicited action by a client on a site thanks to `cookie
 
 ## Phishing
 
-> To find an example of phishing technique, [look here](https://github.com/AsterYujano/security/tree/master/phishing)
+> To find an example of phishing technique, [look here](https://github.com/godfreybrew/security/tree/master/phishing)
 
 The link  to the false web site can be displayed in an e-mail, or on a popular website.
 
