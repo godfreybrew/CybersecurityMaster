@@ -28,8 +28,12 @@ ___
 	* [Firewall & Router](https://github.com/godfreybrew/CybersecurityMaster#firewall--router)
 	* [Intrusion Detection Systems](https://github.com/godfreybrew/CybersecurityMaster#intrusion-detection-systems)
 	* [Internet Access point](https://github.com/godfreybrew/CybersecurityMaster#internet-access-point)
-
-
+5. [How to etablish trust ?](https://github.com/godfreybrew/CybersecurityMaster#how-to-etablish-trust-)
+	* [Logs & Security Qualification](https://github.com/godfreybrew/CybersecurityMaster#logs--security-qualification)
+	* [Remote accesses](https://github.com/godfreybrew/CybersecurityMaster#remote-accesses)
+	* [VPN](https://github.com/godfreybrew/CybersecurityMaster#vpn)
+	* [Cryptography](https://github.com/godfreybrew/CybersecurityMaster#cryptography)
+	
 
 
 
