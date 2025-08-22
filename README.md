@@ -33,25 +33,25 @@ ___
 	* [Remote accesses](https://github.com/godfreybrew/CybersecurityMaster#remote-accesses)
 	* [VPN](https://github.com/godfreybrew/CybersecurityMaster#vpn)
 	* [Cryptography](https://github.com/godfreybrew/CybersecurityMaster#cryptography)
-<<<<<<< HEAD
 	* [PKI](https://github.com/godfreybrew/CybersecurityMaster#pki)
 	* [SSL / TLS](https://github.com/godfreybrew/CybersecurityMaster#{todo})
 6. [Sources](https://github.com/godfreybrew/CybersecurityMaster#sources)
 
 
-=======
-    * [PKI](https://github.com/godfreybrew/CybersecurityMaster#pki)
-	* [SSL / TLS](https://github.com/godfreybrew/CybersecurityMaster#{todo})
-6. [Sources](https://github.com/godfreybrew/CybersecurityMaster#sources)
 
-	
->>>>>>> 323943aa960cb2769a3d7f39f4c6dd54b13b6f96
+# Risk Generalities
 
+```
+"Every security rule or recommendation must be accompanied by its justification
+in order to not be rejected or by-passed"
 
+Trusted networks zone => networks on which we master the security
 
+Never use a USB key found in a car park...
 
+Users awarness remains essential.
 
-
+The strength of the break is equal to the weakest channel passing through
 
 
 
