@@ -52,6 +52,18 @@ Never use a USB key found in a car park...
 Users awarness remains essential.
 
 The strength of the break is equal to the weakest channel passing through
+```
+
+## DICP
+_**D**isponibility_ : Availability
+
+_**I**ntegrity_
+
+_**C**onfidentiality_
+
+_**P**roof_ : Traceability
+
+
 
 
 
