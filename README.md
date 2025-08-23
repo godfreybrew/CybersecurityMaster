@@ -63,7 +63,21 @@ _**C**onfidentiality_
 
 _**P**roof_ : Traceability
 
+## Risk Concepts
 
+1. Reduce the probability to see threats become a reality
+
+2. Restrict the associated damages
+
+3. Allow to recover to usual functioning within satisfactory
+costs and time limits.
+
+## Sniffing
+Consists to catch  a traffic image of the network.
+
+>For the hacker, the goal is to get information to prepare the attack
+
+/!\ If someone is sniffing, he can see in `plaintext` all the messages using telnet, http, etc...
 
 
 
