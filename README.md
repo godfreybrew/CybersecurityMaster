@@ -121,5 +121,26 @@ A DDOS is a DOS with multiples equipments.
 
 ## Botnets
 
+__Explanation__
+A bot is an single infected machine, under control by untrusted person
+
+A _Botnet_ : a network of bots working together
+
+A _bot-herder_ : a the bot operator (i.e. bad human)
+
+_Command & Control server_ : the botnet brain
+
+Botnets are using to do DDOS, spamming, steal passwords,  
+
+__How to counter them__
+* _Decapitation_ ! Separate the bots from the _Command & Control servers_. Without intructions from a server, bots can't change their code to sneak, or target a new victim.
+
+* _Defend !_
+	* Preventing infections
+	* Find infected devices
+	* Limit attack perimeter
+	* limiting damage
+
+
 
 
