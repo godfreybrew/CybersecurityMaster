@@ -142,5 +142,24 @@ __How to counter them__
 	* limiting damage
 
 
+## Keyloggers
+
+Trojan variant intercepting keystrokes. 2 types :
+* __Hardware__ - Install between the keyboard and the system. Wicked needs to gain physical access.
+* __Software__ 
+	* Freeware, easy to find on internet
+	* Commercial, sell in US to spy family
+
+/!\ Keyloggers can steal all confidential informations : credit cards, password, identifiers, etc...
+Storage or send datas to malicious people.
+
+__Counter-measures__
+
+* Keyloggers remain trojan and can be fight as a virus. So keep your Anti-virus updated : Signatures basis must be keep up-to-date.
+* Firewall because if the keylogger exports datas collected through the network, the firewall can detect a unusual/non-conform port used.
+* Protect the physical access & Search for keyloggers around keyboard.
+* Keyloggers focus on password so use tokens, digital certificate, biometric stuff, etc.
+* And users awarness remains essential. __Users awarness remains essential.__ U-s-e-r-s a-w-a-r-n-e... OK you get it.
+
 
 
