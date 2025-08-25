@@ -205,5 +205,27 @@ Teach best practices to follow :
 - Care to downloading,
 - Read the security charts and know the punishments.
 
+### Antivirus
+_Scanner method_ - scan signatures
+
+_Heuristic Method_ - Look for abnormal behavior
+
+_Generic Method_ - Have a reference (clean file) and compare others files to it. A virus modify the objects he infects.
+
+_Behavior analisis in Sandboxes_ - Best way but expensive.
+
+### Watch about antivirus news & Update
+Updates and test. Read the news.
+
+## Cross Site Request Forgery Attack
+
+An attacker executes un solicited action by a client on a site thanks to `cookies`. This attack is commonly called "Sea-surfing".
+
+*example :*
+
+> "Consider that a user “John” browses through a legitimate website “www.example.com” and has a valid cookie on his hard disk. Meanwhile, an attacker, “Crusoe,” embeds a link to perform some delete action of “www.example.com” in an image and posts it on a site known as “www.exploit.com.” When the user John visits “www.exploit.com,” the webpage loads the image and in turns gives a delete request to “www.example.com.” When the web server receives the request, it looks for the cookie. It then finds John’s cookie, interprets this as a valid request, and performs the delete action."
+> 
+> *from* infosecinstitute.com
+
 
 
