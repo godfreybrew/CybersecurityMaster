@@ -172,5 +172,38 @@ __Vocabulary__
 * Unknown virus : isn't or is no more in the antivirus signatures table.
 * Polymorph virus : Light modification of the code to modify the signature.
 
+__Different virus :__
+
+### Boot virus
+Infect when the computer boots (from external drive). 
+Counter-measure : BIOS setup, avoid boot from external drive.
+
+### Excecutable virus
+Propagation through excecutable file. 
+Infection when the infected program is excecuted (games, utilities).
+
+### Macro virus
+Propagation through Word, Excel, Access. 
+Infection when file is opened with the associated application. 
+Parade : desactivate macro
+
+### Worm
+Propagation through mails in messages and attached pieces.
+Use a secure mail and browser. Forbied attached mails and excecutable attachments. 
+
+__Components to struggle virus :__
+
+### Enduser equipment security
+Secure OS, email and browser.
+Apply patches, don't install unnecessary products and utilities, minimize started services.
+
+### User awareness
+Sensitization : sessions, flyers, etc.
+
+Teach best practices to follow :
+- Don't all documents,
+- Care to downloading,
+- Read the security charts and know the punishments.
+
 
 
