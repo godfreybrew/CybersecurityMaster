@@ -161,5 +161,16 @@ __Counter-measures__
 * Keyloggers focus on password so use tokens, digital certificate, biometric stuff, etc.
 * And users awarness remains essential. __Users awarness remains essential.__ U-s-e-r-s a-w-a-r-n-e... OK you get it.
 
+## Virus
+
+__Vocabulary__
+* Wild Virus : most common.
+* Zoo Virus : old ones and in laboratories.
+* False positive : wrongly detected as virus.
+* False negative : undetected by anti-virus.
+* Known virus : Listed by anti-virus editor.
+* Unknown virus : isn't or is no more in the antivirus signatures table.
+* Polymorph virus : Light modification of the code to modify the signature.
+
 
 
