@@ -227,5 +227,20 @@ An attacker executes un solicited action by a client on a site thanks to `cookie
 > 
 > *from* infosecinstitute.com
 
+# Phishing & BYOD
+
+## Phishing
+
+> To find an example of phishing technique, [look here](https://github.com/godfreybrew/security/tree/master/phishing)
+
+The link to the false web site can be displayed in an e-mail, or on a popular website.
+
+__usurp link__
+DNS spoofing, DNS cache poisoning
+
+Approaching DNS name, example : www.go0gle.com
+
+Link alteration : www.google.dangerous.com/
+
 
 
