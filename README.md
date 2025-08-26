@@ -242,5 +242,17 @@ Approaching DNS name, example : www.go0gle.com
 
 Link alteration : www.google.dangerous.com/
 
+__Some steps to conduct phishing attack :__
+1. Create a similar web page as an official one,
+2. Create a mail similar to an official mail of the site,
+3. Send an email to someone and try to do him click on YOUR website (the wrong one),
+4. Get the identifiers and  passwords/credit cards.
+
+__Counter Measures :__
+* Buy the domain name close to yours.
+* User's awarness about strange mails (from the boss, or a friend, asking to typing password or to connect)
+* Inform the visiter about "nobody will ask about your password or credentials"
+* Watch matching with DNS server
+
 
 
