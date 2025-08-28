@@ -254,5 +254,43 @@ __Counter Measures :__
 * Inform the visiter about "nobody will ask about your password or credentials"
 * Watch matching with DNS server
 
+## BYOD
 
+**B**ring **Y**our **O**wn **D**evice
+
+__Risks__
+* Data losses due to equipment loss/theft
+* Accidental data evasion
+* Phishing
+* Malevolent application stealing data
+* Fake Wifi point
+* User spying (software tool)
+* malware against smartphone banking app
+
+__Prevention__
+* Activate automatic terminal locking
+* Take care of the good reputation of applications to be installed
+* Assess application demand to data access
+* Reset and erase content before recycling
+* Allow only known applications to be installed (White List)
+* Consider ciphering storage for confidential data
+* Consider end-to-end ciphering to protect data transfers
+
+# Cloud Computing & ISMS
+
+## ICMP
+
+Internet Control Message Protocol, usefull to debug !
+
+A ping uses ICMP.
+
+/!\ ICMP Packets have priority on other packets.
+
+__Risks__:
+
+* DOS by saturation 1 - sending to the target ICMP requests with size packets larger than expected. Ping of the Death attack.
+* DOS by saturation 2 SMURF - Massive send of ICMP requests towards a host, can be distributed and using broadcast to multiply the attack. --> Forbid broadcast request from external network.
+* DOS by saturation 3 SMURF - SMURF attack consists on sending an ICMP Echo Request packet to a network broadcast address. The attacker indicates as the source address in the ICMP request packet, the address of the host he wants to attack. All the hosts of the network receive the packet and answer to the sender with ICMP Echo Reply
+* DOS by Redirection - Massive sends of ICMP Redirect to a routing equipment with erroneous addresses. To force the equipment to modify its routing table. The goal is to make the traffic go through a route where a sniffing element
+* Packets dissimulation. Use of ICMP as a transport protocol, Any IP traffic may be included (encapsulated) within ICMP packets.
 
