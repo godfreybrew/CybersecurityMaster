@@ -255,6 +255,40 @@ __Counter Measures :__
 * Watch matching with DNS server
 
 ## BYOD
+<<<<<<< HEAD
+=======
+
+**B**ring **Y**our **O**wn **D**evice
+
+__Risks__
+* Data losses due to equipment loss/theft
+* Accidental data evasion
+* Phishing
+* Malevolent application stealing data
+* Fake Wifi point
+* User spying (software tool)
+* malware against smartphone banking app
+
+__Prevention__
+* Activate automatic terminal locking
+* Take care of the good reputation of applications to be installed
+* Assess application demand to data access
+* Reset and erase content before recycling
+* Allow only known applications to be installed (White List)
+* Consider ciphering storage for confidential data
+* Consider end-to-end ciphering to protect data transfers
+
+# Cloud Computing & ISMS
+
+## ICMP
+
+Internet Control Message Protocol, usefull to debug !
+
+A ping uses ICMP.
+
+/!\ ICMP Packets have priority on other packets.
+
+>>>>>>> 5b00c67eaa18519028b45b40d26c9bd06944fe99
 
 **B**ring **Y**our **O**wn **D**evice
 
