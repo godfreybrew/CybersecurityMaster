@@ -254,5 +254,18 @@ __Counter Measures :__
 * Inform the visiter about "nobody will ask about your password or credentials"
 * Watch matching with DNS server
 
+## BYOD
+
+**B**ring **Y**our **O**wn **D**evice
+
+__Risks__
+* Data losses due to equipment loss/theft
+* Accidental data evasion
+* Phishing
+* Malevolent application stealing data
+* Fake Wifi point
+* User spying (software tool)
+* malware against smartphone banking app
+
 
 
