@@ -267,5 +267,24 @@ __Risks__
 * User spying (software tool)
 * malware against smartphone banking app
 
+__Prevention__
+* Activate automatic terminal locking
+* Take care of the good reputation of applications to be installed
+* Assess application demand to data access
+* Reset and erase content before recycling
+* Allow only known applications to be installed (White List)
+* Consider ciphering storage for confidential data
+* Consider end-to-end ciphering to protect data transfers
+
+# Cloud Computing & ISMS
+
+## ICMP
+
+Internet Control Message Protocol, usefull to debug !
+
+A ping uses ICMP.
+
+/!\ ICMP Packets have priority on other packets.
+
 
 
