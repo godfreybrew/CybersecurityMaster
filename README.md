@@ -37,8 +37,8 @@ ___
 	* [SSL / TLS](https://github.com/godfreybrew/CybersecurityMaster#{todo})
 6. [Sources](https://github.com/godfreybrew/CybersecurityMaster#sources)
 
-
-
+	
+	
 # Risk Generalities
 
 ```
@@ -130,7 +130,8 @@ A _bot-herder_ : a the bot operator (i.e. bad human)
 
 _Command & Control server_ : the botnet brain
 
-Botnets are using to do DDOS, spamming, steal passwords,  
+Botnets are using to do DDOS, spamming, steal passwords, 
+
 
 __How to counter them__
 * _Decapitation_ ! Separate the bots from the _Command & Control servers_. Without intructions from a server, bots can't change their code to sneak, or target a new victim.
@@ -140,8 +141,7 @@ __How to counter them__
 	* Find infected devices
 	* Limit attack perimeter
 	* limiting damage
-
-
+	
 ## Keyloggers
 
 Trojan variant intercepting keystrokes. 2 types :
@@ -160,6 +160,7 @@ __Counter-measures__
 * Protect the physical access & Search for keyloggers around keyboard.
 * Keyloggers focus on password so use tokens, digital certificate, biometric stuff, etc.
 * And users awarness remains essential. __Users awarness remains essential.__ U-s-e-r-s a-w-a-r-n-e... OK you get it.
+
 
 ## Virus
 
@@ -244,7 +245,8 @@ Link alteration : www.google.dangerous.com/
 
 __Some steps to conduct phishing attack :__
 1. Create a similar web page as an official one,
-2. Create a mail similar to an official mail of the site,
+2. Listen good music (it is important), 
+3. Create a mail similar to an official mail of the site,
 3. Send an email to someone and try to do him click on YOUR website (the wrong one),
 4. Get the identifiers and  passwords/credit cards.
 
@@ -254,41 +256,8 @@ __Counter Measures :__
 * Inform the visiter about "nobody will ask about your password or credentials"
 * Watch matching with DNS server
 
+
 ## BYOD
-<<<<<<< HEAD
-=======
-
-**B**ring **Y**our **O**wn **D**evice
-
-__Risks__
-* Data losses due to equipment loss/theft
-* Accidental data evasion
-* Phishing
-* Malevolent application stealing data
-* Fake Wifi point
-* User spying (software tool)
-* malware against smartphone banking app
-
-__Prevention__
-* Activate automatic terminal locking
-* Take care of the good reputation of applications to be installed
-* Assess application demand to data access
-* Reset and erase content before recycling
-* Allow only known applications to be installed (White List)
-* Consider ciphering storage for confidential data
-* Consider end-to-end ciphering to protect data transfers
-
-# Cloud Computing & ISMS
-
-## ICMP
-
-Internet Control Message Protocol, usefull to debug !
-
-A ping uses ICMP.
-
-/!\ ICMP Packets have priority on other packets.
-
->>>>>>> 5b00c67eaa18519028b45b40d26c9bd06944fe99
 
 **B**ring **Y**our **O**wn **D**evice
 
@@ -328,3 +297,20 @@ __Risks__:
 * DOS by Redirection - Massive sends of ICMP Redirect to a routing equipment with erroneous addresses. To force the equipment to modify its routing table. The goal is to make the traffic go through a route where a sniffing element
 * Packets dissimulation. Use of ICMP as a transport protocol, Any IP traffic may be included (encapsulated) within ICMP packets.
 
+## Services
+
+### SAAS
+
+Software As A Service, the application is hosted in the Cloud. Access possible with a web browser.
+
+All is included
+
+> Examples : Google apps, paypal, stripe
+
+### PAAS
+
+Platforme As A Service
+
+Middlewares where devs can deploy applications. You have YOUR application on the cloud and you can manag with only your application.
+
+> Examples : Google App Engine (java, python, Go), Microsoft Azure (.NET, java, php), Heroku (Java, ruby)
