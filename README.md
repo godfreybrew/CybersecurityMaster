@@ -370,3 +370,40 @@ Using ACL allows to write specific rules. But a router doesn't log traffic easil
 > To define if the crossing traffic is the beginning of a TCP connection, which header should consider an equipment of filtering ? Do you know what bit/flag must be examined in this header ?
 >
 > *TCP-IP header : ACK bit is set to 0, it means that the first connection to a server.*
+
+## Intrusion Detection Systems
+
+__Principle:__ watch traffic and events in a real-time or on differed-time to detect abnormal behaviour and attacks. Sys Admin must regularly check the logs and reports.
+
+__Goal:__ Alert and restrict the time delay for the hacker to act.
+
+* HIDS: Host IDS -> resources, logs, ...
+	* files/folders missing, moved, modified altered
+	* problems with logs (missing, altered, etc)
+	* user profile modification, new User id
+	* user abnormal activity (i.e. accounting who launches coding environment)
+	* resources over consumption (consommation) : disk space, CPU time...
+	* nightly use
+
+* NIDS: Network IDS -> Packet analysis
+	* Unexplained significant level of traffic
+	* unusual ingoing or outgoing accesses with unusual sites
+	* over busy networks links
+	* complaining from users or from remote systems
+	
+	* __Passive NIDS__: watch and alert,
+	* __Active NIDS__: watch and may interrupt suspected sessions. Use this way when false positive are rare.
+	
+__Why looking for detect intrusions ?__
+
+Not possible to stop all intrusions (cost, complex), and difficulties to keep up to date EACH equipments. Furthermore, firewall can't see every danger.
+
+__Two approaches :__
+
+* _Modeling behavior_, understand a routine to detect deviating events.
+* _Vunerabilities knowledge_, search for common and latest vulnerabilities usage.
+
+__Two problems :__
+
+* Up-to-date signature bases (exhaustivity of attacks)
+* Efficiency of packets capture
