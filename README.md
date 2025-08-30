@@ -342,3 +342,31 @@ Based on the quality model : __PDCA__
 	* _"I correct and improve what I did and what I said"_
 
 # Security Network Architecture & Filtering
+
+## DMZ
+
+**D**eMilitarized **Z**ones are networks with more or less public accesses, added network(s) between a protected network and an external one to provide an additional layer of security
+
+> Partition the network to confine the risk
+
+The correct approach in filtering is : everything is forbidden, just permit the flow you know (kinda ACL).
+
+
+## Firewall & Router
+
+Partition the network: IP packets examination and able to examine until application layer.
+
+Keeps the logs and alerts, and furtermore : User friendly interface !
+
+About the __Router__, it is a security until Routing layer. It can filter packet headers such as :
+origin address, destination address, origin service port, destination service port, bits mask.
+
+Using ACL allows to write specific rules. But a router doesn't log traffic easily.
+
+> If a filtering equipment needs to filter on port numbers, in which headers will it find them ?
+>
+> *Application Layer in the TCP-IP Model*
+
+> To define if the crossing traffic is the beginning of a TCP connection, which header should consider an equipment of filtering ? Do you know what bit/flag must be examined in this header ?
+>
+> *TCP-IP header : ACK bit is set to 0, it means that the first connection to a server.*
