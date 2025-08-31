@@ -432,3 +432,42 @@ weakest channel passing through*. It is very important.
 > In order to protect from danger coming with mobile codes describe three main content filtering priciples that may be employed
 >
 > {todo}
+
+# How to etablish trust ?
+
+## Logs & Security Qualification
+
+### Logs
+
+Logs permits to keep trace of activity and understand an attack.
+Also it can be usefull to detect something wrong happening.
+
+### Security Qualification
+
+__Black box__
+
+Audit without adding information
+
+__Grey box__
+
+Audit with specifics perimeter and informations
+
+__White/Crystal box__
+
+Acces to all informations and components (architectures, config, codes, ...) 
+
+## Remote Accesses
+
+### Authentification
+
+**P**oint to **P**oint **P**rotocol allows to send data over a serial connection.
+
+There are 2 authentification protocols :
+
+* __PAP__ - **P**assword **A**uthentification **P**rotocol. The client sends username and pass, they may be hijacked
+* __CHAP__ - **C**hallenge **H**andshake **A**uthentification **P**rotocol. The server sends a challenge to the client who ciphers it and sends it
+back to the server. The server does the same ciphering of the
+challenge and compare the two.  CHAP requires that both the client and server know the plaintext of the secret, although it is never sent over the network
+* __TACACS__ - A auth server answering to the access server if the user has the rights.
+* RADIUS
+* TACACS +
