@@ -407,3 +407,28 @@ __Two problems :__
 
 * Up-to-date signature bases (exhaustivity of attacks)
 * Efficiency of packets capture
+
+## Internet Access Point
+
+### Principles
+
+* __Deny all__ access unless the access is proved to be needed and agreed
+* __The security means must be redundant__, multiples IAP, hardrives, etc
+* __Confining the risk__, the architecture of the access point have to distinguish the different security levels. It is the _onion rings_ principle (public DMZ, private DMZ, legacy systems).
+* __Content analysis__, Traffic must be analyzed and logged.
+* __Restrain the number of channels__ : The strength of the break is equal to the
+weakest channel passing through, *The strength of the break is equal to the
+weakest channel passing through*. It is very important.
+* Protect your IAP against adapted threats.
+* Upholding conformity to the Security Policy
+* Vigilance principle : Security components must be able to help us answer the question : Are we under attack ?
+* Set to production only what you may operate
+* Systematic agreement before operational usage (Tests, audits, pentests)
+
+> Give three technical actions to follow in order to protect a web server faces internet risks.
+>
+> Set to production only what you may operate, Systematic agreement before operational usage (Tests, audits, pentests) & Upholding conformity to the Security Policy
+
+> In order to protect from danger coming with mobile codes describe three main content filtering priciples that may be employed
+>
+> {todo}
