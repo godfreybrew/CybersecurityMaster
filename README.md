@@ -497,3 +497,71 @@ It allows to interconnect Intranets of the same company.
 ### VPN client protection
 
 To counter hijacking or malware on client VPN, install a personal firewall on the client device. {a preciser et expliquer / trouver autre solution (poly ) - slide 27}
+
+### Implementation VPN
+
+1. Encapsulation : the payload with a supplementary header
+2. Transmission through an intermediary network
+3. De-encapsulation : recovering payload
+
+## Cryptography
+
+To be trusted a cryptographic algorithm must be
+intensely challenged
+
+__Symmetric algorithms :__ the same key is shared between the sender and the receiver
+
+__Asymmetric algorithms :__ Algorithms using a pair of keys : a public key and a private key
+
+### IPsec (Internet Protocol Security)
+
+Set of protocols using algorithms to convey securely data over IP. 
+Works on the layer 3. Implemented in about 40 RFCs.
+
+__Where is that implemented ?__
+
+On the equipment, on modifying its kernel IP stack. May be complex
+ 
+On the equipment but with separation of IPsec processing routines from IP routines. Ipsec code inserted bewteen layer liaison and layer network.
+
+__Various services__
+
+Extremities authentification (level 3, not user), data confidentiality, data integrity, protection against listening and against replay.
+
+2 protocols using different algorithms (SHA, AES, 3DES):
+
+__Authentification Header Protocol (AH)__ : authentification extremities & integrity
+> Counter *IP spoofing* (cause need Authentification / integrity confidentiality)
+
+__Encapsulated Security Payload (ESP)__ : hold data/headers confidentiality, extremities authenticity.
+> Counter *IP Sniffing* (cause need confidentiality) & *IP spoofing* (cause need Authentification / integrity confidentiality)
+
+#### 2 protection modes
+
+__Transport mode__: Protect data -> encapsulation
+
+__Tunnel mode__: Protect Original Ip header & data --> encapsulation
+
+### Symmetric ciphering Secret keys systems
+
+The ciphering key is identical to the deciphering key
+
+> Each partner's network as to have : n(n-1)/2 keys
+
+__Problems :__ Partners must agree upon the key, key must be exchanged and key must be kept secret.
+
+#### 3DES (Data encryption Standart)
+
+DES : 56 bits key
+
+Triple DES : 
+	
+	3 distinctive keys (168 bits) : K1 --> K2 --> K3
+
+	2 distinctive keys (168 bits) : K1 --> K2 --> K1
+
+#### AES (Advanced Encryption Standart)
+
+Replace DES.
+
+128 bits block ciphring with 128, 192 or 256 bits keys.
