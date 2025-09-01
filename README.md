@@ -471,3 +471,29 @@ challenge and compare the two.  CHAP requires that both the client and server kn
 * __TACACS__ - A auth server answering to the access server if the user has the rights.
 * RADIUS
 * TACACS +
+
+## VPN
+
+**V**irtual **P**rivate **N**etworks
+
+VPN allows to create a virtual path between a source and a destination. Thanks to tunneling principle, each extremity is authenticated. Data are exchanged after have been ciphered. It allows to realize private networks at a very interesting cost on leaning on Internet. It works on IP from server to server or from a server to a workstation.
+
+### IP tunneling
+
+In IP tunnelling, every IP packet, including addressing information of its source and destination IP networks, is encapsulated within another packet format native to the transit network.
+
+__Advantages :__ Extremities are authenticated --> Confidentiality
+
+__Disadvantages :__ Go through a firewall
+
+It allows to interconnect Intranets of the same company.
+
+### VPN for nomad accesses
+
+* Nomad asks the provider to establish a ciphered connection towards the remote server {todo explain}
+
+* Nomad has its own VPN client software {todo explain}
+
+### VPN client protection
+
+To counter hijacking or malware on client VPN, install a personal firewall on the client device. {a preciser et expliquer / trouver autre solution (poly ) - slide 27}
