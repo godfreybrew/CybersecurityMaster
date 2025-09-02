@@ -565,3 +565,21 @@ Triple DES :
 Replace DES.
 
 128 bits block ciphring with 128, 192 or 256 bits keys.
+
+### Asymmetric ciphering Public keys systems
+
+Each person has his private key AND his public key.
+
+> N actors mean N differents keys
+
+There are different usages :
+
+__ciphering to ensure confidentiality__
+
+The message is ciphered with the public key of Bob. The public key of Bob is previously known by Alice. Only Bob the holder of the associated private key will be able to decipher the message.
+
+__For signing to ensure message origin__
+
+The sender (Alice) ciphers her message with her own private key. Only Alice is able to employed her private key. The receiver (Bob) checks the sender signature by deciphering the message with the public key of the sender (Alice). This public key is the only key able to deciphered messages that have been previously ciphered with the private key of Alice.
+
+Everyone knowing the public key of the sender (Alice) may decipher the message and so verify the signature.
