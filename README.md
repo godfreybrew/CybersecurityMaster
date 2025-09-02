@@ -583,3 +583,23 @@ __For signing to ensure message origin__
 The sender (Alice) ciphers her message with her own private key. Only Alice is able to employed her private key. The receiver (Bob) checks the sender signature by deciphering the message with the public key of the sender (Alice). This public key is the only key able to deciphered messages that have been previously ciphered with the private key of Alice.
 
 Everyone knowing the public key of the sender (Alice) may decipher the message and so verify the signature.
+
+#### RSA
+
+RSA is a kind of encryption.
+
+RSA security depends on the difficulty to factorize big prime numbers. 
+Public and private keys are function of a big prime numbers pair. 
+2 big prime numbers are chosen : p & q. 
+n = pq is calculated. 
+Given n, it’s difficult to recover p et q (n prime numbers factorization)
+
+**Number e is chosen with the following properties :**
+e is an integer ranging between 2 and φ(n)= (p-1)(q-1)
+Euler’s indicating function, it’s the number of integers inferior to n and who are prime with n
+so that e and (p-1)(q-1) are mutually prime.
+
+**Number d is calculated from e,p and q**
+
+Numbers e AND n constitute the public key. 
+Numbers d AND n constitute the private key. 
