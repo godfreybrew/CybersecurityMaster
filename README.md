@@ -603,3 +603,24 @@ so that e and (p-1)(q-1) are mutually prime.
 
 Numbers e AND n constitute the public key. 
 Numbers d AND n constitute the private key. 
+
+## PKI
+
+**P**ublic **K**ey **I**nfrastructure
+
+The problem with the Asymetric cyphering is the following : "How can I be sure that I'm sending my private message to Alice and not to some Hackers ? Is the public key the Alice one ?"
+
+> PKI is a networked system that enables companies and users to exchange information and money safely and securely.
+
+### Digital Certificates
+
+**D**igital **C**ertificates are data packages that identify a person that is associated with his public key. A digital certificate is protected with asymetric cryptography and hold by a trusted authority (**C**ertificate **A**uthority).
+
+Imagine that Alice got a digital certificate. 
+So when Bob wants to send confidential informations to Alice, he can ask at a **CA** the Alice's digital certificate, compare it with the public key Alice is sending. Then he sends the encrypted message with the public key to Alice.
+
+It is very important in Commercial transactions to make sure you are sending your informations to the right web site.
+
+### Certificate Authority
+
+Entity in the PKI who generates and signs the certificates. Certificates contain the public keys. The CA is the trusted third party whose signature appears on the certificate.
