@@ -624,3 +624,24 @@ It is very important in Commercial transactions to make sure you are sending you
 ### Certificate Authority
 
 Entity in the PKI who generates and signs the certificates. Certificates contain the public keys. The CA is the trusted third party whose signature appears on the certificate.
+
+### Registration Authority
+
+**R**egistration **A**uthority verifies the prospective key owner's identify and sends it to the CA to issue a certificate.
+It is a kind of secretary of CA. It verifies your informations before get certified by the PKI. Different authentification modes are possible : face-to-face, sending ID card copy.
+
+**RA** interacts with the subscribers for providing **CA** services and the **RA** is subsumed (included) in the **CA**, which takes total responsibility for all action of the **RA**.
+
+### Other terms
+
+**C**ertificate **R**evocation **L**ists are lists of certificates that are no longer useable. The list is frequently up-to-date and contains serial numbers of CA.
+
+**R**ecovery **A**gent : a person who is authorized to recover lost private key.
+
+**K**ey **E**scrow : Keeping secured copies of private keys for law enforcement purposes.
+
+__2 Documents describe a PKI foundation :__
+
+**C**ertificate **P**olicy: gives the rules on how to use the certificate and formalize the guarantees it offers. The authentification control level. Public document.
+
+**C**ertificate **P**ratice **S**tatement (CPS): describes means installed by the PKI to reach guarantees as announced in the CP. Private document. Processes details on the way CA, RA and other PKI components work certificate life-cycle description, CRLs management
