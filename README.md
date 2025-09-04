@@ -645,3 +645,36 @@ __2 Documents describe a PKI foundation :__
 **C**ertificate **P**olicy: gives the rules on how to use the certificate and formalize the guarantees it offers. The authentification control level. Public document.
 
 **C**ertificate **P**ratice **S**tatement (CPS): describes means installed by the PKI to reach guarantees as announced in the CP. Private document. Processes details on the way CA, RA and other PKI components work certificate life-cycle description, CRLs management
+
+### LDAP repository
+
+Employed to store CR Lists (CRL) and certicates.
+
+__Main attacks :__
+* Denial of service with overloaded traffic
+* Spoof client identity
+* Identity server usurpation
+
+__ACL__ control the access and the rights specify to clients (rw)
+
+__Several Authentification :__
+* Anonymous authentification - without pass
+* Root DN authentification
+* Simple authentification
+* Simple authentification with TLS/SSL
+* Auth with Certificates exchanges
+
+### X509 certificate
+
+X509 is the most employed standard in PKI. This standard allows applications use as SSL, IPSec, S/MIME.
+
+Main elements :
+
+* Certificate Version
+* Certificate Serial number
+* CA signature algorithm description (ex: RSA with MD5)
+* name of the CA who generate the certificate
+* Validity dates
+* User name
+* __public Key__
+* CA digital signature
