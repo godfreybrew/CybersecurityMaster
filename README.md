@@ -678,3 +678,21 @@ Main elements :
 * User name
 * __public Key__
 * CA digital signature
+
+### Certificate Trust Level
+
+A PKI may define several certificate level depending on the required level of trust needed.
+
+Differences between the trust levels frequently concern:
+* level of control followed during the registering process
+* the keys and certificate delivering process
+* the medium employed to store private keys and certificates
+* The certificate purposes (signature, ciphering …)
+
+__Class 1 - Low level__ : link email and public key, without legal/commercial value
+
+__Class 2 - Medium level__: Link between an identity and a public key done through the network, Common transaction : digital trade (commerce)
+
+__Class 3 - High level__: Link between a physical identity and a public key, Certificate delivered by the PKI on a face to face process
+
+> Give the two techniques a PKI can use to implement the revocation mechanism.
