@@ -711,3 +711,52 @@ __Class 3 - High level__: Link between a physical identity and a public key, Cer
 	* MasterKey is calculated while etablishing a session and each new connection.
 
 9. Session enabled. Server sends the first secured message
+
+
+
+
+
+
+___
+
+> "Don't be the [wicked](https://www.youtube.com/watch?v=HKtsdZs9LJo) guy and become an ethical hacker"
+
+___
+
+# Sources
+
+Lessons from ISEP - Jacquy LEMEE
+
+https://resources.infosecinstitute.com/risk-associated-cookies/
+
+https://www.ivision.fr/redondance-et-securite-du-systeme-dinformation/
+
+https://en.wikipedia.org/wiki/Challenge-Handshake_Authentication_Protocol
+
+https://en.wikipedia.org/wiki/IP_tunnel
+
+https://www.youtube.com/watch?v=i-rtxrEz_E8
+
+https://www.youtube.com/watch?v=t0F7fe5Alwg&t=312s
+
+https://www.youtube.com/watch?v=nUs9k5aBeqg
+
+
+FOLLOW ME ON LINKEDIN;
+https://www.linkedin.com/in/godfrey-brew-ntiamoah
+
+
+SINCERELY,
+GODFREY BREW NTIAMOAH
+
+
+
+
+
+
+
+
+
+
+
+
