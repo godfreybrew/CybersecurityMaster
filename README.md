@@ -696,3 +696,18 @@ __Class 2 - Medium level__: Link between an identity and a public key done throu
 __Class 3 - High level__: Link between a physical identity and a public key, Certificate delivered by the PKI on a face to face process
 
 > Give the two techniques a PKI can use to implement the revocation mechanism.
+
+## SSL / TLS
+
+1. Client connects to the HTTPS server
+2. Server sends back its certificate
+3. server asks for the client's certificate
+4. Client checks server certificate
+5. Client sends back its certificate
+6. Client sends a pre-secret(PreMasterSecret) cyphers with the server's public key
+7. Server checks client'scertificate.
+8. Server calculates the secret (MasterSecret) thanks the PreMasterSecret (step 6)
+	* Client & Server are going to generate the MasterSecret (with the PreMasterSecret and 2 random sequences : server_random & client_random) and the session keys.
+	* MasterKey is calculated while etablishing a session and each new connection.
+
+9. Session enabled. Server sends the first secured message
